@@ -1,0 +1,20 @@
+.footer-link{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.footer-title{
+    margin-bottom: 20px;
+}
+
+.elem  span{
+margin-left:10px ;
+}
+.elem{
+    margin-bottom: 10px;
+}
+.list-time li {
+    text-decoration: none;
+    margin-bottom: 10px;
+}

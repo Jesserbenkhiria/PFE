@@ -1,0 +1,104 @@
+/* Conteneur principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-sizing: border-box; /* Assure que le padding est inclus dans la taille du conteneur */
+    text-align: center; /* Applique le centrage horizontal au contenu du conteneur */
+}
+
+/* Formulaire */
+.form-component {
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    width:500px;
+}
+
+/* Titre du formulaire */
+.form-component h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #e30a8d;
+}
+
+/* Formulaire */
+.form-component form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Conteneurs de champs */
+.form-component form div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-component form input,
+.form-component form textarea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-component form textarea {
+    resize: vertical;
+}
+
+/* Bouton de soumission */
+.form-component button {
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: #ff00dd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.form-component button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour les écrans plus petits */
+@media (max-width: 768px) {
+    .form-component {
+        padding: 20px;
+    }
+
+    .form-component form input,
+    .form-component form textarea {
+        font-size: 14px;
+    }
+
+    .form-component button {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-component form input,
+    .form-component form textarea {
+        font-size: 12px;
+    }
+
+    .form-component button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}

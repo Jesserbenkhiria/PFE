@@ -1,0 +1,20 @@
+.centered-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ajustez en fonction de vos besoins */
+  }
+
+  #sendBtn{
+   width: 100%;
+   padding: 15px 0px;
+   background-color:  #ff007b;
+   transition-duration: 0.7s;
+  }
+
+  #sendBtn:hover{ 
+    background-color: white;
+    color: #ff007b;
+    border: 1px solid  #ff007b;
+   }
+   
